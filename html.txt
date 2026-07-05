@@ -1,0 +1,29 @@
+HTML 5
+- Hyper Text Markup Language 
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+HTML (LEVEL 1) PART - A
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+HTML ELEMENTS 
+- Paragraph -> <p></p>
+- Headings -> <h1></h1>,<h2></h2> ......... <h6></h6>
+- Image -> <img src="source_of_img" alt="about the img ">
+- Bold -> <b></b>
+--------------------------------------------------------------------------------------------------------
+PARAGRAPH TAG 
+- <p> </p>
+- The <p> tag defines a paragraph.
+- It is a block-level element, so each paragraph starts on a new line.
+- Browsers automatically add margin (space) above and below paragraphs.
+- The opening tag is <p> and the closing tag is </p>.
+--------------------------------------------------------------------------------------------------------
+Heading Elements
+- Heading elements in HTML are used to define titles and headings on a webpage. HTML provides six levels of headings, from <h1> to <h6>.
+<h1> → Largest and most important heading
+<h2> → Second largest heading
+<h3> → Third largest heading
+<h4> → Fourth largest heading
+<h5> → Fifth largest heading
+<h6> → Smallest and least important heading
+  
