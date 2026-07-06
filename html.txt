@@ -26,4 +26,65 @@ Heading Elements
 <h4> → Fourth largest heading
 <h5> → Fifth largest heading
 <h6> → Smallest and least important heading
-  
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+HTML (LEVEL 1) PART - B
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+List elements 
+List elements in HTML are used to display a collection of related items. HTML provides three types of lists:
+- Ordered List (<ol>) – Displays items in a numbered sequence.
+- Unordered List (<ul>) – Displays items with bullet points.
+- Description List (<dl>) – Displays terms and their descriptions.
+
+Key Points
+<ol> creates a numbered list.
+<ul> creates a bulleted list.
+<li> defines a list item (used inside <ol> and <ul>).
+<dl> creates a description list.
+<dt> defines the term.
+<dd> defines the description of the term.
+--------------------------------------------------------------------------------------------------------
+Attributes in HTML
+Attributes provide additional information about HTML elements. They are written inside the opening tag and usually consist of a name and a value.
+
+| Attribute | Description                                   | Example                                  |
+| --------- | --------------------------------------------- | ---------------------------------------- |
+| `href`    | Specifies the URL of a link                   | `<a href="https://example.com">Link</a>` |
+| `src`     | Specifies the source of an image, video, etc. | `<img src="photo.jpg">`                  |
+| `alt`     | Provides alternative text for an image        | `<img src="cat.jpg" alt="Cat">`          |
+| `id`      | Assigns a unique identifier to an element     | `<p id="intro">Hello</p>`                |
+| `class`   | Assigns one or more class names               | `<div class="container"></div>`          |
+| `style`   | Adds inline CSS styles                        | `<p style="color:red;">Text</p>`         |
+| `title`   | Displays extra information as a tooltip       | `<p title="Welcome">Hover me</p>`        |
+
+--------------------------------------------------------------------------------------------------------
+Anchor Elements
+- The Anchor element is used to create hyperlinks that connect one webpage to another webpage, a file, an email address, or a specific section of the same page. The anchor element is represented by the <a> tag.
+
+- <a href="URL">Link Text</a>
+
+Key Points
+- The <a> tag is used to create hyperlinks.
+- The href attribute specifies the destination URL or file.
+- target="_blank" opens the link in a new tab.
+- Anchor elements can link to:
+- Other websites
+- Webpages within the same website
+- Email addresses
+- Files and downloadable documents
+--------------------------------------------------------------------------------------------------------
+Image Element 
+- The Image element is used to display images on a webpage. It is represented by the <img> tag.
+- <img src="image.jpg" alt="Description of Image">
+
+Key Points
+The <img> tag is used to display images on a webpage.
+It is a self-closing (void) element and does not require a closing </img> tag.
+The src attribute specifies the image location.
+The alt attribute provides alternative text for accessibility and when an image cannot be displayed.
+You can control the image size using the width and height attributes.
+--------------------------------------------------------------------------------------------------------
+Comment in HTML
+- Comments are used to add notes or explanations in HTML code. They are not displayed in the web browser and are ignored by the browser during page rendering.
+<!-- This is an HTML comment -->
