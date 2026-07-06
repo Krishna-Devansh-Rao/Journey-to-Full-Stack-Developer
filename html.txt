@@ -5,20 +5,20 @@ HTML 5
 HTML (LEVEL 1) PART - A
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
-HTML ELEMENTS 
-- Paragraph -> <p></p>
+1) HTML ELEMENTS 
+- Paragraph -> <p> </p>
 - Headings -> <h1></h1>,<h2></h2> ......... <h6></h6>
 - Image -> <img src="source_of_img" alt="about the img ">
 - Bold -> <b></b>
 --------------------------------------------------------------------------------------------------------
-PARAGRAPH TAG 
+2) PARAGRAPH TAG 
 - <p> </p>
 - The <p> tag defines a paragraph.
 - It is a block-level element, so each paragraph starts on a new line.
 - Browsers automatically add margin (space) above and below paragraphs.
 - The opening tag is <p> and the closing tag is </p>.
 --------------------------------------------------------------------------------------------------------
-Heading Elements
+3) Heading Elements
 - Heading elements in HTML are used to define titles and headings on a webpage. HTML provides six levels of headings, from <h1> to <h6>.
 <h1> → Largest and most important heading
 <h2> → Second largest heading
@@ -31,7 +31,7 @@ Heading Elements
 HTML (LEVEL 1) PART - B
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
-List elements 
+1) List elements 
 List elements in HTML are used to display a collection of related items. HTML provides three types of lists:
 - Ordered List (<ol>) – Displays items in a numbered sequence.
 - Unordered List (<ul>) – Displays items with bullet points.
@@ -45,7 +45,7 @@ Key Points
 <dt> defines the term.
 <dd> defines the description of the term.
 --------------------------------------------------------------------------------------------------------
-Attributes in HTML
+2) Attributes in HTML
 Attributes provide additional information about HTML elements. They are written inside the opening tag and usually consist of a name and a value.
 
 | Attribute | Description                                   | Example                                  |
@@ -59,7 +59,7 @@ Attributes provide additional information about HTML elements. They are written 
 | `title`   | Displays extra information as a tooltip       | `<p title="Welcome">Hover me</p>`        |
 
 --------------------------------------------------------------------------------------------------------
-Anchor Elements
+3) Anchor Elements
 - The Anchor element is used to create hyperlinks that connect one webpage to another webpage, a file, an email address, or a specific section of the same page. The anchor element is represented by the <a> tag.
 
 - <a href="URL">Link Text</a>
@@ -74,7 +74,7 @@ Key Points
 - Email addresses
 - Files and downloadable documents
 --------------------------------------------------------------------------------------------------------
-Image Element 
+4) Image Element 
 - The Image element is used to display images on a webpage. It is represented by the <img> tag.
 - <img src="image.jpg" alt="Description of Image">
 
@@ -85,6 +85,121 @@ The src attribute specifies the image location.
 The alt attribute provides alternative text for accessibility and when an image cannot be displayed.
 You can control the image size using the width and height attributes.
 --------------------------------------------------------------------------------------------------------
-Comment in HTML
+5) Comment in HTML
 - Comments are used to add notes or explanations in HTML code. They are not displayed in the web browser and are ignored by the browser during page rendering.
 <!-- This is an HTML comment -->
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+HTML (LEVEL 2)
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+1) INLINE VS BLOCK 
+- HTML elements are mainly divided into Block-level elements and Inline elements based on how they are displayed on a webpage.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+| **Block Elements**                                                     | **Inline Elements**                                    |
+| ---------------------------------------------------------------------- | ------------------------------------------------------ |
+| Start on a **new line**.                                               | Do **not** start on a new line.                        |
+| Occupy the **full width** available.                                   | Occupy only the **required width**.                    |
+| Can contain both block and inline elements (depending on the element). | Usually contain only text or other inline elements.    |
+| Used for creating the page structure.                                  | Used for formatting or styling content within a line.  |
+| Examples: `<div>`, `<p>`, `<h1>`–`<h6>`, `<ul>`, `<ol>`                | Examples: `<span>`, `<a>`, `<img>`, `<strong>`, `<em>` |
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+2) DIV ELEMENT 
+- The <div> (Division) element is a block-level element used to group and organize other HTML elements into sections. It does not have any visual appearance by default but is commonly used with CSS for styling and JavaScript for adding functionality.
+
+Key Points
+The <div> tag is known as the Division element.
+It is a container used to organize webpage content.
+It is one of the most commonly used HTML elements for building layouts.
+By itself, <div> has no visual effect until CSS or JavaScript is applied.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+3) SPAN ELEMENT
+
+- The <span> element is an inline element used to group or style a small portion of text or other inline elements. It does not start on a new line and has no visual appearance by default. It is commonly used with CSS and JavaScript.
+
+Key Points
+The <span> tag is an inline container.
+It is used to style or group small portions of text.
+Unlike <div>, it does not create a new line.
+<span> is commonly used with CSS and JavaScript for text formatting and interactivity.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+4) HR TAG
+
+The <hr> (Horizontal Rule) tag is used to create a horizontal line on a webpage. It represents a thematic break or separation between sections of content.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+5) SUP AND SUB TAG 
+-The <sup> (Superscript) and <sub> (Subscript) tags are used to display text slightly above or below the normal line of text.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+6) SEMANTIC MARKUP 
+- Semantic Markup is the practice of using HTML elements that clearly describe the meaning and purpose of the content they contain. Instead of using generic tags like <div> and <span> for everything, semantic markup uses meaningful tags such as <header>, <nav>, <main>, and <footer> to make the webpage more understandable.
+
+Key Points
+- Semantic Markup means using HTML elements according to their meaning.
+- It improves readability, SEO, and accessibility.
+- Common semantic elements include <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>.
+- Semantic markup is a best practice in modern HTML development.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+7) SEMANTIC TAGS
+- Semantic tags are HTML elements that clearly describe the meaning and purpose of the content they contain. They make the webpage easier to understand for developers, search engines, and assistive technologies such as screen readers.
+
+--------------------------------------------------------------------------------------------------
+| Tag         | Purpose                                                                          |
+| ----------- | -------------------------------------------------------------------------------- |
+| `<header>`  | Defines the header section of a webpage or section.                              |
+| `<nav>`     | Defines a navigation menu with links.                                            |
+| `<main>`    | Represents the main content of the webpage.                                      |
+| `<section>` | Groups related content into a section.                                           |
+| `<article>` | Represents an independent piece of content, such as a blog post or news article. |
+| `<aside>`   | Contains side content, such as advertisements or a sidebar.                      |
+| `<footer>`  | Defines the footer section of a webpage or section.                              |
+--------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+8) HTML ENTITIES 
+- HTML Entities are special codes used to display reserved characters, special symbols, and characters that cannot be typed directly in HTML. An HTML entity begins with an ampersand (&) and ends with a semicolon (;).
+
+---------------------------------------------------
+| Entity     | Output | Description               |
+| ---------- | ------ | ------------------------- |
+| `&lt;`     | `<`    | Less than symbol          |
+| `&gt;`     | `>`    | Greater than symbol       |
+| `&amp;`    | `&`    | Ampersand symbol          |
+| `&quot;`   | `"`    | Double quotation mark     |
+| `&apos;`   | `'`    | Apostrophe (single quote) |
+| `&nbsp;`   | Space  | Non-breaking space        |
+| `&copy;`   | ©      | Copyright symbol          |
+| `&reg;`    | ®      | Registered trademark      |
+| `&trade;`  | ™      | Trademark symbol          |
+| `&euro;`   | €      | Euro symbol               |
+| `&dollar;` | $      | Dollar symbol             |
+---------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+9) EMMETS
+- Emmet is a code abbreviation toolkit that helps developers write HTML and CSS code faster. It is built into code editors like Visual Studio Code, allowing you to generate HTML structures by typing short abbreviations and pressing Tab or Enter.
+
+-----------------------------------------------------------------------------
+| Emmet Abbreviation              | Generated HTML                          |
+| ------------------------------- | --------------------------------------- |
+| `!`                             | Creates a basic HTML5 boilerplate       |
+| `h1`                            | `<h1></h1>`                             |
+| `p`                             | `<p></p>`                               |
+| `div`                           | `<div></div>`                           |
+| `ul>li*3`                       | Creates a `<ul>` with 3 `<li>` elements |
+| `div.container`                 | `<div class="container"></div>`         |
+| `div#header`                    | `<div id="header"></div>`               |
+| `a[href="https://example.com"]` | `<a href="https://example.com"></a>`    |
+-----------------------------------------------------------------------------
