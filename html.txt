@@ -203,3 +203,73 @@ Key Points
 | `div#header`                    | `<div id="header"></div>`               |
 | `a[href="https://example.com"]` | `<a href="https://example.com"></a>`    |
 -----------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+HTML (LEVEL -3)
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+
+1) TABLE
+
+- An HTML Table is used to display data in rows and columns. It is created using the <table> tag. A table consists of rows (<tr>), headers (<th>), and data cells (<td>).
+Key Points
+<table> defines a table.
+<tr> defines a table row.
+<th> defines a table heading (bold and centered by default).
+<td> defines table data.
+Tables are used to organize tabular data.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+2) SEMANTIC TAGS IN TABLE
+- HTML provides semantic table elements to organize table content. These elements improve readability, accessibility, and SEO.
+Tag	Purpose
+<caption>	Adds a title to the table.
+<thead>	Groups the table header.
+<tbody>	Groups the main table data.
+<tfoot>	Groups the table footer.
+Key Points
+<caption> gives the table a title.
+<thead> contains heading rows.
+<tbody> contains the main data.
+<tfoot> contains summary or footer information.
+These tags make tables more structured and meaningful.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+3) COLSPAN AND ROWSPAN
+- colspan and rowspan are table attributes used to merge cells.
+
+colspan
+- The colspan attribute allows a cell to span across multiple columns.
+
+rowspan
+- The rowspan attribute allows a cell to span across multiple rows.
+
+Key Points
+- colspan merges columns.
+- rowspan merges rows.
+- They help create complex table layouts.
+- Used inside <td> or <th> elements.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+4) FORMS
+- An HTML Form is used to collect user input such as text, email, password, phone number, and more. Forms are created using the <form> tag and contain different form elements.
+Key Points
+<form> is used to create a form.
+Forms collect user information.
+Data can be sent to a server using the action and method attributes.
+Forms contain various input elements.
+Common Form Elements
+Element	Purpose
+<form>	Creates a form.
+<input>	Creates different input fields.
+<label>	Defines a label for an input field.
+<textarea>	Creates a multi-line text box.
+<select>	Creates a drop-down list.
+<option>	Defines options inside a drop-down.
+<button>	Creates a clickable button.
+<fieldset>	Groups related form elements.
+<legend>	Adds a title to a fieldset.
+<datalist>	Provides predefined suggestions for an input.
+<output>	Displays the result of a calculation or action.
+-----------------------------------------------------------------------------------------------------------------------------------
