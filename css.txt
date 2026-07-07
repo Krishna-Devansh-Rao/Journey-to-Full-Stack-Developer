@@ -1,0 +1,222 @@
+CSS Notes
+---------------------------------------------------------------------------------------------------------
+
+1. What is CSS?
+
+CSS (Cascading Style Sheets) is a stylesheet language used to design and style web pages. While HTML creates the structure of a webpage, CSS controls its appearance such as colors, fonts, spacing, sizes, backgrounds, and layout.
+
+HTML = Structure
+CSS = Design
+
+Key Points
+Makes websites attractive and user-friendly.
+Separates design from HTML content.
+Reduces code repetition by applying the same style to multiple elements.
+Makes websites easier to maintain.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+2. Basic CSS Format
+
+CSS follows a simple structure consisting of three parts:
+
+Selector – Selects the HTML element to style.
+Property – Specifies what aspect of the element will change.
+Value – Defines the new style for the property.
+Key Points
+Every CSS rule begins with a selector.
+A property and value are separated by a colon (:).
+Every declaration ends with a semicolon (;).
+Multiple properties can be written inside one rule.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+3. Including CSS
+
+There are three ways to add CSS to a webpage.
+
+1. Inline CSS
+Written directly inside an HTML element.
+Used for applying styles to a single element.
+Not recommended for large projects because it becomes difficult to manage.
+2. Internal CSS
+Written inside the <style> tag in the HTML document.
+Suitable for small websites or single-page projects.
+3. External CSS
+Written in a separate .css file.
+Connected to HTML using the <link> tag.
+Most commonly used in professional web development.
+Makes code cleaner and reusable.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+4. Color Property
+
+The color property is used to change the color of text.
+
+Key Points
+Affects only the text color.
+Supports different color formats such as:
+Color Names
+RGB
+HEX
+HSL (Advanced)
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+5. Background Color Property
+
+The background-color property changes the background color of an element.
+
+Key Points
+Can be applied to the entire webpage or individual elements.
+Improves readability and enhances design.
+Supports all CSS color formats.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+6. Color Systems (Name & RGB)
+
+CSS provides different methods to represent colors.
+
+Color Names
+
+Uses predefined names like Red, Blue, Green, Yellow, Black, White, etc.
+
+Advantages
+Easy to remember.
+Good for beginners.
+Limitation
+Limited number of available colors.
+RGB (Red, Green, Blue)
+
+RGB represents colors by mixing Red, Green, and Blue values.
+
+Key Points
+Each value ranges from 0 to 255.
+More flexible than color names.
+Allows millions of color combinations.
+
+Example:
+
+Red = High Red value
+Green = High Green value
+Blue = High Blue value
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+7. Hex Codes
+
+Hexadecimal (HEX) is another way to represent colors.
+
+Key Points
+Begins with the # symbol.
+Uses numbers (0–9) and letters (A–F).
+Every color is represented using six hexadecimal characters.
+Very commonly used in modern web development.
+Advantages
+Precise color control.
+Widely supported by browsers.
+Easy to copy from design tools like Figma or Photoshop.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+8. Text Align Property
+
+The text-align property controls the horizontal alignment of text.
+
+Common Values
+Left
+Center
+Right
+Justify
+Key Points
+Commonly used for headings and paragraphs.
+"Justify" aligns text evenly on both sides.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+9. Font Weight & Text Decoration
+Font Weight
+
+The font-weight property controls the thickness of text.
+
+Common Values
+Normal
+Bold
+Numeric values (100–900)
+Key Points
+Higher value means thicker text.
+Used to highlight important information.
+Text Decoration
+
+The text-decoration property adds or removes decorative lines from text.
+
+Common Values
+None
+Underline
+Overline
+Line-through
+Key Points
+Often used for links.
+Removing underline from navigation links is very common.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+10. Line Height & Letter Spacing
+Line Height
+
+The line-height property controls the space between lines of text.
+
+Benefits
+Improves readability.
+Makes paragraphs look cleaner.
+Useful for long text content.
+Letter Spacing
+
+The letter-spacing property controls the spacing between characters.
+
+Benefits
+Creates stylish headings.
+Improves text appearance.
+Often used in logos and titles.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+11. Units in CSS (Pixel)
+
+A unit tells the browser how large or small a property should be.
+
+Pixel (px)
+
+The pixel is the most commonly used absolute unit in CSS.
+
+Used For
+Font size
+Width
+Height
+Margin
+Padding
+Border
+Key Points
+Fixed size unit.
+Same value is displayed regardless of screen size.
+Best for beginners and simple layouts.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+12. Font Family
+
+The font-family property changes the style of text.
+
+Common Font Families
+Arial
+Verdana
+Times New Roman
+Georgia
+Helvetica
+Courier New
+Generic Font Families
+Serif
+Sans-serif
+Monospace
+Cursive
+Fantasy
+Key Points
+Different fonts create different visual styles.
+Multiple fonts can be provided as fallbacks.
+Browsers use the next available font if the first one is unavailable.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+
