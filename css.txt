@@ -218,5 +218,84 @@ Multiple fonts can be provided as fallbacks.
 Browsers use the next available font if the first one is unavailable.
 ---------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------
+1. Element Selector
+Selects all elements of a particular HTML tag.
+Example: All <p> or all <h1>.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+2. ID Selector (#)
+Selects one unique element.
+ID should be unique in a page.
+Higher priority than class.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+3. Class Selector (.)
+Selects one or more elements with the same class.
+Can be reused on multiple elements.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+4. Descendant Selector (Space)
+Selects all child and nested elements inside a parent.
+Works for all levels of nesting.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+5. Child Combinator (>)
+Selects only the direct child of a parent.
+Does not select nested grandchildren.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+6. Sibling Combinator
++ (Adjacent Sibling): Selects the immediate next sibling.
+~ (General Sibling): Selects all following siblings.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+7. Attribute Selector ([])
+Selects elements based on their attributes.
+Example attributes: type, href, placeholder, name, disabled.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+8. Pseudo Class (:)
+Styles an element in a specific state.
+Common examples:
+:hover
+:focus
+:visited
+:active
+:first-child
+:last-child
+:nth-child()
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+9. Pseudo Element (::)
+Styles a specific part of an element.
+Common examples:
+::before
+::after
+::first-letter
+::first-line
+::selection
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+10. Cascading
+If multiple CSS rules apply to the same element, the last rule is used (when specificity is equal).
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+11. Specificity (Priority Order)
+
+Inline Style > ID > Class > Element
+
+Higher specificity overrides lower specificity.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+12. !important
+Gives a CSS property the highest priority.
+Use only when necessary.
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+13. Inheritance
+Some CSS properties automatically pass from parent to child.
+Inherited properties: color, font-family, font-size, text-align.
+Not inherited: margin, padding, border, width, height, background.
+
 
 
